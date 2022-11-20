@@ -49,6 +49,8 @@ namespace ZBase
         }
     }
 }
+/*junk code sample*/
+/*
 namespace junkCode_M0W1SG2YZOGI
 {
     class X2EOW36W8EC5L
@@ -281,4 +283,4 @@ namespace junkCode_M0W1SG2YZOGI
                 DME861SNPDW2C = false;
         }
     }
-}
+}*/
