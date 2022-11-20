@@ -1,5 +1,5 @@
-# Echinoidea
- **Echinoidea - is a lightweight opensource CS:GO external cheat, which aviod write memory in order to avoid anti cheat detect**
+# Echinoidea 雲丹
+ **Echinoidea A.K.A.雲丹 - is a lightweight opensource CS:GO external cheat, which aviod write memory in order to avoid anti cheat detect**
 
 ## About
 Echinoidea - is an external hack.\
@@ -7,7 +7,6 @@ Since it is a public cheat, I strongly recommend reimplementing the cheat logic 
 Also it might be useful to add some junk code in some cases (probably you'd have to turn compiler optimisations off before doing it).\
 It's recommended to use [VAC Bypass](https://github.com/danielkrupinski/VAC-Bypass-Loader) to bypass anti-cheat scan and drastically reduce the likelihood of a VAC ban.\
 Use at own risk!\
-\
 
 ## Cheat functions
 ![](https://user-images.githubusercontent.com/65479796/202891808-7ed1ffa7-4438-44e0-b36d-f2b5c114550d.png)
