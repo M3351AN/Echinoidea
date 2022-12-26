@@ -39,6 +39,7 @@
             this.TriggerbotCheck = new System.Windows.Forms.CheckBox();
             this.AimCheck = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.ESPCFGBTN = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.BunnyhopInaccuracy)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,18 +50,17 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(360, 21);
             this.label1.TabIndex = 1;
-            this.label1.Text = "雲丹 Based on ZBase Build“因此我喜欢副会长啊”";
+            this.label1.Text = "雲丹 Based on ZBase Build“她明知道这样我会伤心”";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // BunnyhopCheck
             // 
-            this.BunnyhopCheck.Appearance = System.Windows.Forms.Appearance.Button;
             this.BunnyhopCheck.AutoSize = true;
             this.BunnyhopCheck.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.BunnyhopCheck.Location = new System.Drawing.Point(12, 95);
             this.BunnyhopCheck.Name = "BunnyhopCheck";
-            this.BunnyhopCheck.Size = new System.Drawing.Size(96, 25);
+            this.BunnyhopCheck.Size = new System.Drawing.Size(105, 19);
             this.BunnyhopCheck.TabIndex = 2;
             this.BunnyhopCheck.Text = "Bunny Hop [C]";
             this.BunnyhopCheck.UseVisualStyleBackColor = true;
@@ -69,7 +69,7 @@
             // 
             this.GithubBTN.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GithubBTN.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.GithubBTN.Location = new System.Drawing.Point(14, 32);
+            this.GithubBTN.Location = new System.Drawing.Point(12, 32);
             this.GithubBTN.Name = "GithubBTN";
             this.GithubBTN.Size = new System.Drawing.Size(166, 30);
             this.GithubBTN.TabIndex = 4;
@@ -98,12 +98,11 @@
             // 
             // ESPCheck
             // 
-            this.ESPCheck.Appearance = System.Windows.Forms.Appearance.Button;
             this.ESPCheck.AutoSize = true;
             this.ESPCheck.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ESPCheck.Location = new System.Drawing.Point(12, 126);
             this.ESPCheck.Name = "ESPCheck";
-            this.ESPCheck.Size = new System.Drawing.Size(79, 25);
+            this.ESPCheck.Size = new System.Drawing.Size(88, 19);
             this.ESPCheck.TabIndex = 7;
             this.ESPCheck.Text = "Overlay ESP";
             this.ESPCheck.UseVisualStyleBackColor = true;
@@ -122,12 +121,11 @@
             // 
             // TriggerbotCheck
             // 
-            this.TriggerbotCheck.Appearance = System.Windows.Forms.Appearance.Button;
             this.TriggerbotCheck.AutoSize = true;
             this.TriggerbotCheck.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TriggerbotCheck.Location = new System.Drawing.Point(12, 157);
             this.TriggerbotCheck.Name = "TriggerbotCheck";
-            this.TriggerbotCheck.Size = new System.Drawing.Size(75, 25);
+            this.TriggerbotCheck.Size = new System.Drawing.Size(84, 19);
             this.TriggerbotCheck.TabIndex = 9;
             this.TriggerbotCheck.Text = "Trigger Bot";
             this.TriggerbotCheck.UseVisualStyleBackColor = true;
@@ -139,7 +137,7 @@
             this.AimCheck.Cursor = System.Windows.Forms.Cursors.No;
             this.AimCheck.Enabled = false;
             this.AimCheck.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.AimCheck.Location = new System.Drawing.Point(117, 126);
+            this.AimCheck.Location = new System.Drawing.Point(12, 182);
             this.AimCheck.Name = "AimCheck";
             this.AimCheck.Size = new System.Drawing.Size(107, 25);
             this.AimCheck.TabIndex = 10;
@@ -158,12 +156,25 @@
             this.label2.TabIndex = 11;
             this.label2.Text = "Sleep";
             // 
+            // ESPCFGBTN
+            // 
+            this.ESPCFGBTN.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ESPCFGBTN.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ESPCFGBTN.Location = new System.Drawing.Point(106, 126);
+            this.ESPCFGBTN.Name = "ESPCFGBTN";
+            this.ESPCFGBTN.Size = new System.Drawing.Size(166, 29);
+            this.ESPCFGBTN.TabIndex = 12;
+            this.ESPCFGBTN.Text = "ESP config";
+            this.ESPCFGBTN.UseVisualStyleBackColor = true;
+            this.ESPCFGBTN.Click += new System.EventHandler(this.ESPCFGBTN_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(384, 211);
+            this.Controls.Add(this.ESPCFGBTN);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.AimCheck);
             this.Controls.Add(this.TriggerbotCheck);
@@ -196,6 +207,7 @@
         private System.Windows.Forms.CheckBox TriggerbotCheck;
         private System.Windows.Forms.CheckBox AimCheck;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button ESPCFGBTN;
     }
 }
 

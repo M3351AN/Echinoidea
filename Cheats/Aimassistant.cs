@@ -19,7 +19,7 @@ namespace ZBase.Cheats
             int UserSens = Memory.ReadMemory<int>((int)Memory.Client + Main.O.signatures.dwSensitivity);
             while (true)
             {
-                   if (Main.S.AimEnabled){
+                   if (Main.S.AimEnabled){/*
                     //for (int i = 0; i < Engine.MaxPlayer; i++)
                     //{
                         int EntityInCrossID = Memory.ReadMemory<int>(Engine.LocalPlayerPtr + Main.O.netvars.m_iCrosshairId);
@@ -38,8 +38,8 @@ namespace ZBase.Cheats
                         {
                             Memory.WriteMemory<int>((int)Memory.Client + Main.O.signatures.dwSensitivity, UserSens);
                         }
-                    //}
-                }
+                    //}*/
+                     }
             }
         }
     }

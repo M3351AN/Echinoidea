@@ -28,7 +28,7 @@ namespace ZBase.Cheats
 
             int randTime = time.Next(1, Main.S.BunnyhopAccuracy*2);
 
-            Thread.Sleep(randTime/2);
+            Thread.Sleep((int)(randTime * 0.25));
 
             Input.type = 1;
             Input.U.ki.dwFlags = Memory.KEYEVENTF.KEYUP | Memory.KEYEVENTF.SCANCODE;
@@ -36,7 +36,7 @@ namespace ZBase.Cheats
 
             Memory.SendInput(1, Inputs, Memory.INPUT.Size);
 
-            Thread.Sleep(randTime/2);
+            Thread.Sleep((int)(randTime * 0.75));
         }
         public static void Run()
         {

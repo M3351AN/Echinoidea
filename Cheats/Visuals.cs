@@ -59,15 +59,15 @@ namespace ZBase.Cheats
             
             if (Memory.ReadMemory<int>(Engine.LocalPlayerPtr + Main.O.netvars.m_iTeamNum) == 3)
             {
-                DrawTextWithOutline("Dafuir \"Suki\" ich Ruoxi!! " + DateTime.Now, 25, 25, 15, Color.Blue, Color.Black, false, false);
+                DrawTextWithOutline("Sie known,no ona yafeal " + DateTime.Now, 25, 25, 15, Color.Blue, Color.Black, false, false);
             }
             else if (Memory.ReadMemory<int>(Engine.LocalPlayerPtr + Main.O.netvars.m_iTeamNum) == 2)
             {
-                DrawTextWithOutline("Dafuir \"Suki\" ich Ruoxi!! " + DateTime.Now, 25, 25, 15, Color.Orange, Color.Black, false, false);
+                DrawTextWithOutline("Sie known,no ona yafeal " + DateTime.Now, 25, 25, 15, Color.Orange, Color.Black, false, false);
             }
             else
             {
-                DrawTextWithOutline("Dafuir \"Suki\" ich Ruoxi!! " + DateTime.Now, 25, 25, 15, Color.White, Color.Black, false, false);
+                DrawTextWithOutline("Sie known,no ona yafeal " + DateTime.Now, 25, 25, 15, Color.White, Color.Black, false, false);
             }
             if (Main.S.ESP)
             {
@@ -113,6 +113,7 @@ namespace ZBase.Cheats
                         }
                     }
                 }
+
             }
 
             #region drawing functions

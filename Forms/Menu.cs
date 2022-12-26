@@ -107,5 +107,11 @@ namespace ZBase
         {
 
         }
+
+        private void ESPCFGBTN_Click(object sender, EventArgs e)
+        {
+            云丹.Forms.Form1 f = new 云丹.Forms.Form1();
+            f.ShowDialog();
+        }
     }
 }
