@@ -11,10 +11,12 @@ It's recommended to use [VAC Bypass](https://github.com/danielkrupinski/VAC-Bypa
 Use at own risk!\
 
 ## Cheat functions
-![](https://user-images.githubusercontent.com/65479796/202891808-7ed1ffa7-4438-44e0-b36d-f2b5c114550d.png)
+![](https://user-images.githubusercontent.com/65479796/214297903-c4726a11-b47e-4b36-a4b2-1c51cb3ab532.png)
+
 - Bunnyhop
 - Overlay ESP
-![](https://user-images.githubusercontent.com/65479796/202891822-32848822-c9b3-49f0-aef8-e3581b992122.png)
+![](https://user-images.githubusercontent.com/65479796/214297945-3b8b3827-02b3-4887-b920-acd5856841a9.png)
+
 - Trigger bot
 - INS - hide menu
 
