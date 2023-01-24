@@ -39,7 +39,8 @@
             this.TriggerbotCheck = new System.Windows.Forms.CheckBox();
             this.AimCheck = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.ESPCFGBTN = new System.Windows.Forms.Button();
+            this.HealthBar = new System.Windows.Forms.CheckBox();
+            this.SnapLine = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.BunnyhopInaccuracy)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +51,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(360, 21);
             this.label1.TabIndex = 1;
-            this.label1.Text = "雲丹 Based on ZBase Build“她明知道这样我会伤心”";
+            this.label1.Text = "雲丹 Based on ZBase Build“如与我彻夜起舞般”";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -67,14 +68,17 @@
             // 
             // GithubBTN
             // 
+            this.GithubBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(125)))), ((int)(((byte)(159)))));
             this.GithubBTN.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GithubBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GithubBTN.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.GithubBTN.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.GithubBTN.Location = new System.Drawing.Point(12, 32);
             this.GithubBTN.Name = "GithubBTN";
             this.GithubBTN.Size = new System.Drawing.Size(166, 30);
             this.GithubBTN.TabIndex = 4;
             this.GithubBTN.Text = "My Github";
-            this.GithubBTN.UseVisualStyleBackColor = true;
+            this.GithubBTN.UseVisualStyleBackColor = false;
             this.GithubBTN.Click += new System.EventHandler(this.GithubBTN_Click);
             // 
             // label3
@@ -134,16 +138,19 @@
             // 
             this.AimCheck.Appearance = System.Windows.Forms.Appearance.Button;
             this.AimCheck.AutoSize = true;
+            this.AimCheck.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(125)))), ((int)(((byte)(159)))));
             this.AimCheck.Cursor = System.Windows.Forms.Cursors.No;
             this.AimCheck.Enabled = false;
+            this.AimCheck.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AimCheck.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AimCheck.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.AimCheck.Location = new System.Drawing.Point(12, 182);
             this.AimCheck.Name = "AimCheck";
             this.AimCheck.Size = new System.Drawing.Size(107, 25);
             this.AimCheck.TabIndex = 10;
             this.AimCheck.TabStop = false;
             this.AimCheck.Text = "Aim (Unfinished)";
-            this.AimCheck.UseVisualStyleBackColor = true;
+            this.AimCheck.UseVisualStyleBackColor = false;
             this.AimCheck.Visible = false;
             // 
             // label2
@@ -156,25 +163,36 @@
             this.label2.TabIndex = 11;
             this.label2.Text = "Sleep";
             // 
-            // ESPCFGBTN
+            // HealthBar
             // 
-            this.ESPCFGBTN.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ESPCFGBTN.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ESPCFGBTN.Location = new System.Drawing.Point(106, 126);
-            this.ESPCFGBTN.Name = "ESPCFGBTN";
-            this.ESPCFGBTN.Size = new System.Drawing.Size(166, 29);
-            this.ESPCFGBTN.TabIndex = 12;
-            this.ESPCFGBTN.Text = "ESP config";
-            this.ESPCFGBTN.UseVisualStyleBackColor = true;
-            this.ESPCFGBTN.Click += new System.EventHandler(this.ESPCFGBTN_Click);
+            this.HealthBar.AutoSize = true;
+            this.HealthBar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.HealthBar.Location = new System.Drawing.Point(106, 126);
+            this.HealthBar.Name = "HealthBar";
+            this.HealthBar.Size = new System.Drawing.Size(78, 19);
+            this.HealthBar.TabIndex = 13;
+            this.HealthBar.Text = "HealthBar";
+            this.HealthBar.UseVisualStyleBackColor = true;
+            // 
+            // SnapLine
+            // 
+            this.SnapLine.AutoSize = true;
+            this.SnapLine.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.SnapLine.Location = new System.Drawing.Point(190, 126);
+            this.SnapLine.Name = "SnapLine";
+            this.SnapLine.Size = new System.Drawing.Size(74, 19);
+            this.SnapLine.TabIndex = 14;
+            this.SnapLine.Text = "SnapLine";
+            this.SnapLine.UseVisualStyleBackColor = true;
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(40)))), ((int)(((byte)(46)))));
             this.ClientSize = new System.Drawing.Size(384, 211);
-            this.Controls.Add(this.ESPCFGBTN);
+            this.Controls.Add(this.SnapLine);
+            this.Controls.Add(this.HealthBar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.AimCheck);
             this.Controls.Add(this.TriggerbotCheck);
@@ -185,6 +203,7 @@
             this.Controls.Add(this.GithubBTN);
             this.Controls.Add(this.BunnyhopCheck);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Menu";
@@ -207,7 +226,8 @@
         private System.Windows.Forms.CheckBox TriggerbotCheck;
         private System.Windows.Forms.CheckBox AimCheck;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button ESPCFGBTN;
+        public System.Windows.Forms.CheckBox HealthBar;
+        public System.Windows.Forms.CheckBox SnapLine;
     }
 }
 

@@ -68,236 +68,236 @@ namespace ZBase
     }
 }
 /*junk code sample*/
-namespace junkCode_C6Q2J4NSDL6E
+namespace junkCode_77H0D18JWGHY
 {
-    class XAF0Z09Y4DXYA
+    class XLJH11I9H676Z
     {
-        void K1JL7952KKFI()
+        void P8LIQO9NOHF1()
         {
-            int D4RPLGJ1552AI = 251367104;
-            if (D4RPLGJ1552AI > 251367179)
-                D4RPLGJ1552AI = 251367179;
-            else if (D4RPLGJ1552AI <= 251367154)
-                D4RPLGJ1552AI++;
+            bool DXR805SBAO79A = true;
+            if (!DXR805SBAO79A)
+                DXR805SBAO79A = true;
+            else if (DXR805SBAO79A = true)
+                DXR805SBAO79A = false;
             else
-                D4RPLGJ1552AI = (251367144 / 251367101);
-            int DKBO3NZS9KYZD = 251367175;
-            if (DKBO3NZS9KYZD > 251367124)
-                DKBO3NZS9KYZD = 251367190;
-            else if (DKBO3NZS9KYZD <= 251367191)
-                DKBO3NZS9KYZD++;
+                DXR805SBAO79A = true;
+            int D0C5KZACIH1G0 = 251367136;
+            if (D0C5KZACIH1G0 > 251367182)
+                D0C5KZACIH1G0 = 251367170;
+            else if (D0C5KZACIH1G0 <= 251367134)
+                D0C5KZACIH1G0++;
             else
-                DKBO3NZS9KYZD = (251367114 / 251367153);
-            bool DJ05LH3H0ML49 = true;
-            if (!DJ05LH3H0ML49)
-                DJ05LH3H0ML49 = true;
-            else if (DJ05LH3H0ML49 = true)
-                DJ05LH3H0ML49 = true;
+                D0C5KZACIH1G0 = (251367103 / 251367105);
+            int D62LSZAXARI1K = 251367192;
+            if (D62LSZAXARI1K > 251367163)
+                D62LSZAXARI1K = 251367195;
+            else if (D62LSZAXARI1K <= 251367194)
+                D62LSZAXARI1K++;
             else
-                DJ05LH3H0ML49 = true;
-            bool DYNKA51A9DFKX = false;
-            if (!DYNKA51A9DFKX)
-                DYNKA51A9DFKX = false;
-            else if (DYNKA51A9DFKX = false)
-                DYNKA51A9DFKX = false;
+                D62LSZAXARI1K = (251367184 / 251367138);
+            int DS35FY5MHSNLA = 251367184;
+            if (DS35FY5MHSNLA > 251367198)
+                DS35FY5MHSNLA = 251367104;
+            else if (DS35FY5MHSNLA <= 251367182)
+                DS35FY5MHSNLA++;
             else
-                DYNKA51A9DFKX = false;
-            int DABFFKZ7YJJ47 = 251367109;
-            if (DABFFKZ7YJJ47 > 251367159)
-                DABFFKZ7YJJ47 = 251367196;
-            else if (DABFFKZ7YJJ47 <= 251367196)
-                DABFFKZ7YJJ47++;
+                DS35FY5MHSNLA = (251367129 / 251367188);
+            bool DDLWYD0EDOOZ9 = false;
+            if (!DDLWYD0EDOOZ9)
+                DDLWYD0EDOOZ9 = true;
+            else if (DDLWYD0EDOOZ9 = true)
+                DDLWYD0EDOOZ9 = true;
             else
-                DABFFKZ7YJJ47 = (251367167 / 251367103);
-            bool DWF7I6O88XLLH = false;
-            if (!DWF7I6O88XLLH)
-                DWF7I6O88XLLH = true;
-            else if (DWF7I6O88XLLH = true)
-                DWF7I6O88XLLH = true;
+                DDLWYD0EDOOZ9 = true;
+            int DXGRDZBFBS0R2 = 251367102;
+            if (DXGRDZBFBS0R2 > 251367132)
+                DXGRDZBFBS0R2 = 251367147;
+            else if (DXGRDZBFBS0R2 <= 251367183)
+                DXGRDZBFBS0R2++;
             else
-                DWF7I6O88XLLH = false;
-            int DRLXKFBMNDABX = 251367147;
-            if (DRLXKFBMNDABX > 251367173)
-                DRLXKFBMNDABX = 251367106;
-            else if (DRLXKFBMNDABX <= 251367143)
-                DRLXKFBMNDABX++;
+                DXGRDZBFBS0R2 = (251367161 / 251367159);
+            bool DDCYHJGONJ800 = false;
+            if (!DDCYHJGONJ800)
+                DDCYHJGONJ800 = true;
+            else if (DDCYHJGONJ800 = false)
+                DDCYHJGONJ800 = false;
             else
-                DRLXKFBMNDABX = (251367198 / 251367176);
-            int DGEWNIX5QN95R = 251367143;
-            if (DGEWNIX5QN95R > 251367194)
-                DGEWNIX5QN95R = 251367192;
-            else if (DGEWNIX5QN95R <= 251367110)
-                DGEWNIX5QN95R++;
+                DDCYHJGONJ800 = true;
+            int DZ7ELOLX6G2E1 = 251367122;
+            if (DZ7ELOLX6G2E1 > 251367150)
+                DZ7ELOLX6G2E1 = 251367111;
+            else if (DZ7ELOLX6G2E1 <= 251367189)
+                DZ7ELOLX6G2E1++;
             else
-                DGEWNIX5QN95R = (251367150 / 251367195);
-            bool DA412SDPFYLNY = true;
-            if (!DA412SDPFYLNY)
-                DA412SDPFYLNY = true;
-            else if (DA412SDPFYLNY = false)
-                DA412SDPFYLNY = false;
+                DZ7ELOLX6G2E1 = (251367148 / 251367104);
+            bool DCOE68XFCC0A8 = false;
+            if (!DCOE68XFCC0A8)
+                DCOE68XFCC0A8 = false;
+            else if (DCOE68XFCC0A8 = false)
+                DCOE68XFCC0A8 = false;
             else
-                DA412SDPFYLNY = true;
-            bool D1R1MECWH5Z3I = false;
-            if (!D1R1MECWH5Z3I)
-                D1R1MECWH5Z3I = true;
-            else if (D1R1MECWH5Z3I = true)
-                D1R1MECWH5Z3I = false;
+                DCOE68XFCC0A8 = false;
+            int D5RLHK1CLD1Y0 = 251367170;
+            if (D5RLHK1CLD1Y0 > 251367146)
+                D5RLHK1CLD1Y0 = 251367100;
+            else if (D5RLHK1CLD1Y0 <= 251367150)
+                D5RLHK1CLD1Y0++;
             else
-                D1R1MECWH5Z3I = true;
-            int DA143OSIYHI55 = 251367196;
-            if (DA143OSIYHI55 > 251367127)
-                DA143OSIYHI55 = 251367173;
-            else if (DA143OSIYHI55 <= 251367112)
-                DA143OSIYHI55++;
+                D5RLHK1CLD1Y0 = (251367119 / 251367113);
+            int DHB6R64OG1O1L = 251367125;
+            if (DHB6R64OG1O1L > 251367143)
+                DHB6R64OG1O1L = 251367118;
+            else if (DHB6R64OG1O1L <= 251367149)
+                DHB6R64OG1O1L++;
             else
-                DA143OSIYHI55 = (251367184 / 251367117);
-            int DBA11F0QE3RSK = 251367181;
-            if (DBA11F0QE3RSK > 251367138)
-                DBA11F0QE3RSK = 251367145;
-            else if (DBA11F0QE3RSK <= 251367142)
-                DBA11F0QE3RSK++;
+                DHB6R64OG1O1L = (251367147 / 251367141);
+            bool D8JDBLHIEMCSD = false;
+            if (!D8JDBLHIEMCSD)
+                D8JDBLHIEMCSD = true;
+            else if (D8JDBLHIEMCSD = true)
+                D8JDBLHIEMCSD = true;
             else
-                DBA11F0QE3RSK = (251367164 / 251367122);
-            bool D2SGD1HQ2YP8A = true;
-            if (!D2SGD1HQ2YP8A)
-                D2SGD1HQ2YP8A = false;
-            else if (D2SGD1HQ2YP8A = true)
-                D2SGD1HQ2YP8A = true;
+                D8JDBLHIEMCSD = false;
+            int D2EO54DF5XFIW = 251367180;
+            if (D2EO54DF5XFIW > 251367191)
+                D2EO54DF5XFIW = 251367193;
+            else if (D2EO54DF5XFIW <= 251367137)
+                D2EO54DF5XFIW++;
             else
-                D2SGD1HQ2YP8A = true;
-            bool D5ELEIRJBXNE9 = true;
-            if (!D5ELEIRJBXNE9)
-                D5ELEIRJBXNE9 = true;
-            else if (D5ELEIRJBXNE9 = true)
-                D5ELEIRJBXNE9 = true;
+                D2EO54DF5XFIW = (251367157 / 251367190);
+            bool DFHQHNYB5CL21 = true;
+            if (!DFHQHNYB5CL21)
+                DFHQHNYB5CL21 = false;
+            else if (DFHQHNYB5CL21 = true)
+                DFHQHNYB5CL21 = true;
             else
-                D5ELEIRJBXNE9 = false;
-            int DW3YY4KJ3RROD = 251367130;
-            if (DW3YY4KJ3RROD > 251367150)
-                DW3YY4KJ3RROD = 251367198;
-            else if (DW3YY4KJ3RROD <= 251367164)
-                DW3YY4KJ3RROD++;
+                DFHQHNYB5CL21 = false;
+            int DHLBOW4BR2CYC = 251367111;
+            if (DHLBOW4BR2CYC > 251367129)
+                DHLBOW4BR2CYC = 251367141;
+            else if (DHLBOW4BR2CYC <= 251367173)
+                DHLBOW4BR2CYC++;
             else
-                DW3YY4KJ3RROD = (251367157 / 251367137);
-            bool DL1PKPB5OSBH2 = true;
-            if (!DL1PKPB5OSBH2)
-                DL1PKPB5OSBH2 = false;
-            else if (DL1PKPB5OSBH2 = true)
-                DL1PKPB5OSBH2 = false;
+                DHLBOW4BR2CYC = (251367149 / 251367113);
+            bool DS75A10SAQYRN = true;
+            if (!DS75A10SAQYRN)
+                DS75A10SAQYRN = false;
+            else if (DS75A10SAQYRN = true)
+                DS75A10SAQYRN = false;
             else
-                DL1PKPB5OSBH2 = true;
-            int DZE8EFL3JZPXB = 251367197;
-            if (DZE8EFL3JZPXB > 251367126)
-                DZE8EFL3JZPXB = 251367130;
-            else if (DZE8EFL3JZPXB <= 251367180)
-                DZE8EFL3JZPXB++;
+                DS75A10SAQYRN = false;
+            int D4OD8IMY8OBJC = 251367178;
+            if (D4OD8IMY8OBJC > 251367198)
+                D4OD8IMY8OBJC = 251367180;
+            else if (D4OD8IMY8OBJC <= 251367127)
+                D4OD8IMY8OBJC++;
             else
-                DZE8EFL3JZPXB = (251367141 / 251367130);
-            bool DFZK3COBL6QHQ = false;
-            if (!DFZK3COBL6QHQ)
-                DFZK3COBL6QHQ = false;
-            else if (DFZK3COBL6QHQ = false)
-                DFZK3COBL6QHQ = true;
+                D4OD8IMY8OBJC = (251367150 / 251367192);
+            bool D1O553B2BSZ3Y = false;
+            if (!D1O553B2BSZ3Y)
+                D1O553B2BSZ3Y = true;
+            else if (D1O553B2BSZ3Y = true)
+                D1O553B2BSZ3Y = false;
             else
-                DFZK3COBL6QHQ = true;
-            bool DW8XHJ9WLXZQD = true;
-            if (!DW8XHJ9WLXZQD)
-                DW8XHJ9WLXZQD = false;
-            else if (DW8XHJ9WLXZQD = false)
-                DW8XHJ9WLXZQD = true;
+                D1O553B2BSZ3Y = false;
+            int DCYDB9F87JJJB = 251367167;
+            if (DCYDB9F87JJJB > 251367192)
+                DCYDB9F87JJJB = 251367198;
+            else if (DCYDB9F87JJJB <= 251367163)
+                DCYDB9F87JJJB++;
             else
-                DW8XHJ9WLXZQD = false;
-            bool D1YYAOGS4JJSM = true;
-            if (!D1YYAOGS4JJSM)
-                D1YYAOGS4JJSM = true;
-            else if (D1YYAOGS4JJSM = false)
-                D1YYAOGS4JJSM = true;
+                DCYDB9F87JJJB = (251367139 / 251367187);
+            int D0X9HK9B7XL27 = 251367136;
+            if (D0X9HK9B7XL27 > 251367179)
+                D0X9HK9B7XL27 = 251367155;
+            else if (D0X9HK9B7XL27 <= 251367192)
+                D0X9HK9B7XL27++;
             else
-                D1YYAOGS4JJSM = true;
-            bool D9YXK3ZG6DH9B = true;
-            if (!D9YXK3ZG6DH9B)
-                D9YXK3ZG6DH9B = true;
-            else if (D9YXK3ZG6DH9B = true)
-                D9YXK3ZG6DH9B = true;
+                D0X9HK9B7XL27 = (251367143 / 251367118);
+            int DLGG8WRL3AFF6 = 251367156;
+            if (DLGG8WRL3AFF6 > 251367176)
+                DLGG8WRL3AFF6 = 251367188;
+            else if (DLGG8WRL3AFF6 <= 251367111)
+                DLGG8WRL3AFF6++;
             else
-                D9YXK3ZG6DH9B = false;
-            bool DMH7BD6I2C6P6 = true;
-            if (!DMH7BD6I2C6P6)
-                DMH7BD6I2C6P6 = true;
-            else if (DMH7BD6I2C6P6 = true)
-                DMH7BD6I2C6P6 = true;
+                DLGG8WRL3AFF6 = (251367129 / 251367104);
+            int DF1HHL1RMEPIK = 251367189;
+            if (DF1HHL1RMEPIK > 251367150)
+                DF1HHL1RMEPIK = 251367176;
+            else if (DF1HHL1RMEPIK <= 251367186)
+                DF1HHL1RMEPIK++;
             else
-                DMH7BD6I2C6P6 = false;
-            int DEI65QD14CBKI = 251367145;
-            if (DEI65QD14CBKI > 251367108)
-                DEI65QD14CBKI = 251367117;
-            else if (DEI65QD14CBKI <= 251367176)
-                DEI65QD14CBKI++;
+                DF1HHL1RMEPIK = (251367166 / 251367125);
+            int D2HP2KCI1HBQ4 = 251367196;
+            if (D2HP2KCI1HBQ4 > 251367136)
+                D2HP2KCI1HBQ4 = 251367101;
+            else if (D2HP2KCI1HBQ4 <= 251367131)
+                D2HP2KCI1HBQ4++;
             else
-                DEI65QD14CBKI = (251367143 / 251367172);
-            bool DZK5IZ8A83WF4 = true;
-            if (!DZK5IZ8A83WF4)
-                DZK5IZ8A83WF4 = false;
-            else if (DZK5IZ8A83WF4 = true)
-                DZK5IZ8A83WF4 = true;
+                D2HP2KCI1HBQ4 = (251367191 / 251367115);
+            int D9NZD94WA2S2G = 251367192;
+            if (D9NZD94WA2S2G > 251367111)
+                D9NZD94WA2S2G = 251367118;
+            else if (D9NZD94WA2S2G <= 251367124)
+                D9NZD94WA2S2G++;
             else
-                DZK5IZ8A83WF4 = false;
-            int DFAFR1HZDXPKJ = 251367143;
-            if (DFAFR1HZDXPKJ > 251367187)
-                DFAFR1HZDXPKJ = 251367188;
-            else if (DFAFR1HZDXPKJ <= 251367115)
-                DFAFR1HZDXPKJ++;
+                D9NZD94WA2S2G = (251367183 / 251367128);
+            bool D5SZ23IRR35WB = false;
+            if (!D5SZ23IRR35WB)
+                D5SZ23IRR35WB = true;
+            else if (D5SZ23IRR35WB = true)
+                D5SZ23IRR35WB = false;
             else
-                DFAFR1HZDXPKJ = (251367173 / 251367117);
-            bool D67OPHE2X4RBO = true;
-            if (!D67OPHE2X4RBO)
-                D67OPHE2X4RBO = true;
-            else if (D67OPHE2X4RBO = true)
-                D67OPHE2X4RBO = true;
+                D5SZ23IRR35WB = true;
+            int DNQZDQOIJIPHD = 251367168;
+            if (DNQZDQOIJIPHD > 251367193)
+                DNQZDQOIJIPHD = 251367132;
+            else if (DNQZDQOIJIPHD <= 251367191)
+                DNQZDQOIJIPHD++;
             else
-                D67OPHE2X4RBO = true;
-            bool DZ3XKAJCNDNNW = true;
-            if (!DZ3XKAJCNDNNW)
-                DZ3XKAJCNDNNW = true;
-            else if (DZ3XKAJCNDNNW = false)
-                DZ3XKAJCNDNNW = false;
+                DNQZDQOIJIPHD = (251367170 / 251367189);
+            bool D4QSELIRSY662 = true;
+            if (!D4QSELIRSY662)
+                D4QSELIRSY662 = true;
+            else if (D4QSELIRSY662 = true)
+                D4QSELIRSY662 = true;
             else
-                DZ3XKAJCNDNNW = true;
-            bool DLAABA066Y6NM = true;
-            if (!DLAABA066Y6NM)
-                DLAABA066Y6NM = true;
-            else if (DLAABA066Y6NM = false)
-                DLAABA066Y6NM = false;
+                D4QSELIRSY662 = true;
+            int DWZYP2LQJPXMP = 251367124;
+            if (DWZYP2LQJPXMP > 251367161)
+                DWZYP2LQJPXMP = 251367159;
+            else if (DWZYP2LQJPXMP <= 251367116)
+                DWZYP2LQJPXMP++;
             else
-                DLAABA066Y6NM = true;
-            int DSIBF7R53JWJM = 251367119;
-            if (DSIBF7R53JWJM > 251367189)
-                DSIBF7R53JWJM = 251367134;
-            else if (DSIBF7R53JWJM <= 251367196)
-                DSIBF7R53JWJM++;
+                DWZYP2LQJPXMP = (251367147 / 251367121);
+            int D4MF42KAQKEA4 = 251367141;
+            if (D4MF42KAQKEA4 > 251367161)
+                D4MF42KAQKEA4 = 251367163;
+            else if (D4MF42KAQKEA4 <= 251367182)
+                D4MF42KAQKEA4++;
             else
-                DSIBF7R53JWJM = (251367190 / 251367164);
-            int DKO7EQ2NZ5O8Z = 251367184;
-            if (DKO7EQ2NZ5O8Z > 251367124)
-                DKO7EQ2NZ5O8Z = 251367145;
-            else if (DKO7EQ2NZ5O8Z <= 251367180)
-                DKO7EQ2NZ5O8Z++;
+                D4MF42KAQKEA4 = (251367198 / 251367139);
+            int DI0FBFZQDPSAH = 251367114;
+            if (DI0FBFZQDPSAH > 251367186)
+                DI0FBFZQDPSAH = 251367148;
+            else if (DI0FBFZQDPSAH <= 251367141)
+                DI0FBFZQDPSAH++;
             else
-                DKO7EQ2NZ5O8Z = (251367177 / 251367155);
-            int DZH69G22PRY9E = 251367176;
-            if (DZH69G22PRY9E > 251367187)
-                DZH69G22PRY9E = 251367142;
-            else if (DZH69G22PRY9E <= 251367116)
-                DZH69G22PRY9E++;
+                DI0FBFZQDPSAH = (251367134 / 251367133);
+            int D8ZWYL7W1XRN3 = 251367153;
+            if (D8ZWYL7W1XRN3 > 251367115)
+                D8ZWYL7W1XRN3 = 251367196;
+            else if (D8ZWYL7W1XRN3 <= 251367112)
+                D8ZWYL7W1XRN3++;
             else
-                DZH69G22PRY9E = (251367189 / 251367133);
-            int D97YRZMHYR0EI = 251367140;
-            if (D97YRZMHYR0EI > 251367161)
-                D97YRZMHYR0EI = 251367153;
-            else if (D97YRZMHYR0EI <= 251367101)
-                D97YRZMHYR0EI++;
+                D8ZWYL7W1XRN3 = (251367139 / 251367113);
+            bool D9A442EFK0ADD = true;
+            if (!D9A442EFK0ADD)
+                D9A442EFK0ADD = true;
+            else if (D9A442EFK0ADD = true)
+                D9A442EFK0ADD = true;
             else
-                D97YRZMHYR0EI = (251367133 / 251367189);
+                D9A442EFK0ADD = true;
         }
     }
 }

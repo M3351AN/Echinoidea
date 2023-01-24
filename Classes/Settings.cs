@@ -12,6 +12,8 @@ namespace ZBase.Classes
         public int BunnyhopAccuracy;
         public bool TriggerbotEnabled;
         public bool ESP;
+        public bool SnapLine;
+        public bool HealthBar;
         public bool AimEnabled;
     }
 }

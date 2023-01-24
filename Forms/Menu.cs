@@ -91,6 +91,9 @@ namespace ZBase
                 Main.S.ESP = ESPCheck.Checked;
                 Main.S.TriggerbotEnabled = TriggerbotCheck.Checked;
                 Main.S.AimEnabled = AimCheck.Checked;
+                Main.S.SnapLine = SnapLine.Checked;
+                Main.S.HealthBar = HealthBar.Checked;
+
                 if ((Memory.GetAsyncKeyState(Keys.VK_INSERT) & 1) > 0)
                     Visible = !Visible;
                 Text =DateTime.UtcNow+"[雲丹Echinoidea] " + GetRandomMenutitle(16, true, true, true, true, "m1tzw");
@@ -108,10 +111,5 @@ namespace ZBase
 
         }
 
-        private void ESPCFGBTN_Click(object sender, EventArgs e)
-        {
-            云丹.Forms.Form1 f = new 云丹.Forms.Form1();
-            f.ShowDialog();
-        }
     }
 }

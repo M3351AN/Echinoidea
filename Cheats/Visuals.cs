@@ -59,15 +59,15 @@ namespace ZBase.Cheats
             
             if (Memory.ReadMemory<int>(Engine.LocalPlayerPtr + Main.O.netvars.m_iTeamNum) == 3)
             {
-                DrawTextWithOutline("Sie known,no ona yafeal " + DateTime.Now, 25, 25, 15, Color.Blue, Color.Black, false, false);
+                DrawTextWithOutline("Poi de tanetz avec'ana toda the Nacht " + DateTime.Now, 25, 25, 15, Color.Blue, Color.Black, false, false);
             }
             else if (Memory.ReadMemory<int>(Engine.LocalPlayerPtr + Main.O.netvars.m_iTeamNum) == 2)
             {
-                DrawTextWithOutline("Sie known,no ona yafeal " + DateTime.Now, 25, 25, 15, Color.Orange, Color.Black, false, false);
+                DrawTextWithOutline("Poi de tanetz avec'ana toda the Nacht " + DateTime.Now, 25, 25, 15, Color.Orange, Color.Black, false, false);
             }
             else
             {
-                DrawTextWithOutline("Sie known,no ona yafeal " + DateTime.Now, 25, 25, 15, Color.White, Color.Black, false, false);
+                DrawTextWithOutline("Poi de tanetz avec'ana toda the Nacht " + DateTime.Now, 25, 25, 15, Color.White, Color.Black, false, false);
             }
             if (Main.S.ESP)
             {
@@ -91,9 +91,11 @@ namespace ZBase.Cheats
                             //DrawOutlineBox(Player2DPos.X - (BoxWidth / 2), Player2DHeadPos.Y, BoxWidth, BoxHeight, drawcolor);
                             //DrawFillOutlineBox(Player2DPos.X - (BoxWidth / 2), Player2DHeadPos.Y, BoxWidth, BoxHeight, drawcolor, Color.FromArgb(50, 198, 198, 198));
                             DrawBoxEdge(Player2DPos.X - (BoxWidth / 2), Player2DHeadPos.Y, BoxWidth, BoxHeight, drawcolor, 1);
-                            
+
                             #endregion
                             #region Health Bar
+                            if (Main.S.HealthBar)
+                            {
                             float Health = Player.Health;
                             Color HealthColor = Tools.HealthGradient(Tools.HealthToPercent((int)Health));
                             float x = Player2DPos.X - (BoxWidth / 2) - 8;
@@ -104,10 +106,12 @@ namespace ZBase.Cheats
 
                             DrawBox(x, y, w, h, Color.White, 1);
                             DrawFilledBox(x + 1, y + 1, 2, HealthHeight - 1, HealthColor);
+                            }
                             //if (!Player.IsTeammate)
                                 //DrawCrosshair(CrosshairStyle.Gap, Player2DPos.X, Player2DHeadPos.Y + BoxHeight*2/5,2 , 2, HealthColor);
                             #endregion
                             #region Snaplines
+                            if (Main.S.SnapLine)
                             DrawLine(Main.MidScreen.X, Main.MidScreen.Y + Main.MidScreen.Y , Player2DPos.X, Player2DPos.Y, drawcolor);
                             #endregion
                         }
