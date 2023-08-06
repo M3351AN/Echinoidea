@@ -86,8 +86,6 @@ namespace ZBase
             while (true)
             {
                 Main.S.BunnyhopEnabled = BunnyhopCheck.Checked;
-                Main.S.BunnyhopAccuracy = BunnyhopInaccuracy.Value;
-                
                 Main.S.ESP = ESPCheck.Checked;
                 Main.S.TriggerbotEnabled = TriggerbotCheck.Checked;
                 Main.S.AimEnabled = AimCheck.Checked;

@@ -49,11 +49,11 @@ namespace ZBase.Cheats
                         // Flags show if you are on the ground or not. 257 is standing on the ground, and 263 is crouching on the ground.
 
 
-                        //if ((G.Engine.LocalPlayer.Flags == 257 || G.Engine.LocalPlayer.Flags == 263) && G.Engine.LocalPlayer.Velocity > 10)
-                        if (G.Engine.LocalPlayer.Velocity > 10)
+                        if ((G.Engine.LocalPlayer.Flags == 257 || G.Engine.LocalPlayer.Flags == 263) && G.Engine.LocalPlayer.Velocity > 10)
+                        if (true/*G.Engine.LocalPlayer.Velocity > 10*/)
                         {
-                            //G.Engine.Jump();
-                            SendInputWithAPI();
+                            G.Engine.Jump();
+                            //SendInputWithAPI();
 
 
 
@@ -61,13 +61,7 @@ namespace ZBase.Cheats
 
                     }
                 }
-                int iSeed = 10;
-                Random ro = new Random(10);
-                long tick = DateTime.Now.Ticks;
-                Random ran = new Random((int)(tick & 0xffffffffL) | (int)(tick >> 32));
-                int iResult;
-                iResult = ro.Next(1,2);
-                Thread.Sleep(iResult); //reduce cpu usage
+                Thread.Sleep(5); //reduce cpu usage
             }
         }
 

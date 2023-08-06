@@ -45,9 +45,10 @@ namespace ZBase
             if (parent.ProcessName == "explorer")RE411li_eNtr1_pu01N7_iz_h3r3();
             else
             {
-                MessageBox.Show("Du weisst, ich werde wiutend sein.", "Error", MessageBoxButtons.OK);
-                Environment.Exit(1);
-                return;
+                RE411li_eNtr1_pu01N7_iz_h3r3();
+                //MessageBox.Show("Du weisst, ich werde wiutend sein.", "Error", MessageBoxButtons.OK);
+                //Environment.Exit(1);
+                //return;
             }
         }
         static void Resemble(bool DaEtNet)

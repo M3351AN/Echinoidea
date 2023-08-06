@@ -35,13 +35,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.ESPCheck = new System.Windows.Forms.CheckBox();
-            this.BunnyhopInaccuracy = new System.Windows.Forms.TrackBar();
             this.TriggerbotCheck = new System.Windows.Forms.CheckBox();
             this.AimCheck = new System.Windows.Forms.CheckBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.HealthBar = new System.Windows.Forms.CheckBox();
             this.SnapLine = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.BunnyhopInaccuracy)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -111,57 +108,33 @@
             this.ESPCheck.Text = "Overlay ESP";
             this.ESPCheck.UseVisualStyleBackColor = true;
             // 
-            // BunnyhopInaccuracy
-            // 
-            this.BunnyhopInaccuracy.AutoSize = false;
-            this.BunnyhopInaccuracy.LargeChange = 10;
-            this.BunnyhopInaccuracy.Location = new System.Drawing.Point(155, 99);
-            this.BunnyhopInaccuracy.Maximum = 100;
-            this.BunnyhopInaccuracy.Minimum = 1;
-            this.BunnyhopInaccuracy.Name = "BunnyhopInaccuracy";
-            this.BunnyhopInaccuracy.Size = new System.Drawing.Size(214, 16);
-            this.BunnyhopInaccuracy.TabIndex = 8;
-            this.BunnyhopInaccuracy.Value = 50;
-            // 
             // TriggerbotCheck
             // 
             this.TriggerbotCheck.AutoSize = true;
             this.TriggerbotCheck.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TriggerbotCheck.Location = new System.Drawing.Point(12, 157);
             this.TriggerbotCheck.Name = "TriggerbotCheck";
-            this.TriggerbotCheck.Size = new System.Drawing.Size(84, 19);
+            this.TriggerbotCheck.Size = new System.Drawing.Size(111, 19);
             this.TriggerbotCheck.TabIndex = 9;
-            this.TriggerbotCheck.Text = "Trigger Bot";
+            this.TriggerbotCheck.Text = "Trigger Bot [M5]";
             this.TriggerbotCheck.UseVisualStyleBackColor = true;
             // 
             // AimCheck
             // 
-            this.AimCheck.Appearance = System.Windows.Forms.Appearance.Button;
             this.AimCheck.AutoSize = true;
-            this.AimCheck.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(125)))), ((int)(((byte)(159)))));
+            this.AimCheck.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(40)))), ((int)(((byte)(46)))));
             this.AimCheck.Cursor = System.Windows.Forms.Cursors.No;
-            this.AimCheck.Enabled = false;
             this.AimCheck.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AimCheck.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AimCheck.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.AimCheck.Location = new System.Drawing.Point(12, 182);
             this.AimCheck.Name = "AimCheck";
-            this.AimCheck.Size = new System.Drawing.Size(107, 25);
+            this.AimCheck.Size = new System.Drawing.Size(113, 19);
             this.AimCheck.TabIndex = 10;
             this.AimCheck.TabStop = false;
             this.AimCheck.Text = "Aim (Unfinished)";
             this.AimCheck.UseVisualStyleBackColor = false;
             this.AimCheck.Visible = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label2.Location = new System.Drawing.Point(114, 100);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 15);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Sleep";
             // 
             // HealthBar
             // 
@@ -193,10 +166,8 @@
             this.ClientSize = new System.Drawing.Size(384, 211);
             this.Controls.Add(this.SnapLine);
             this.Controls.Add(this.HealthBar);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.AimCheck);
             this.Controls.Add(this.TriggerbotCheck);
-            this.Controls.Add(this.BunnyhopInaccuracy);
             this.Controls.Add(this.ESPCheck);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -209,7 +180,6 @@
             this.Name = "Menu";
             this.Text = "雲丹Echinoidea";
             this.Load += new System.EventHandler(this.Menu_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.BunnyhopInaccuracy)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,10 +192,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox ESPCheck;
-        private System.Windows.Forms.TrackBar BunnyhopInaccuracy;
         private System.Windows.Forms.CheckBox TriggerbotCheck;
         private System.Windows.Forms.CheckBox AimCheck;
-        private System.Windows.Forms.Label label2;
         public System.Windows.Forms.CheckBox HealthBar;
         public System.Windows.Forms.CheckBox SnapLine;
     }

@@ -93,6 +93,19 @@ namespace ZBase.Cheats
                             DrawBoxEdge(Player2DPos.X - (BoxWidth / 2), Player2DHeadPos.Y, BoxWidth, BoxHeight, drawcolor, 1);
 
                             #endregion
+
+                            #region Recoil
+                            /*
+                            Vector2 PunchAngle = G.Engine.LocalPlayer.AimPunchAngle * 2;
+                            float px = (float)((PunchAngle.X * 10) / 10.0);
+                            float py = (float)((PunchAngle.Y * 10) / 10.0);
+                            int dx = Main.ScreenSize.Width / 90; // hardcoding FOV because fuck you
+                            int dy = Main.ScreenSize.Height / 90;
+                            int cx = (int)(Main.ScreenSize.Width - (dx * px));
+                            int cy = (int)(Main.ScreenSize.Height + (dy * py));*/
+                            DrawCrosshair(CrosshairStyle.Cross, Main.ScreenSize.Width/2, Main.ScreenSize.Height/2, 5, 2, Color.WhiteSmoke);
+
+                            #endregion
                             #region Health Bar
                             if (Main.S.HealthBar)
                             {
@@ -114,6 +127,8 @@ namespace ZBase.Cheats
                             if (Main.S.SnapLine)
                             DrawLine(Main.MidScreen.X, Main.MidScreen.Y + Main.MidScreen.Y , Player2DPos.X, Player2DPos.Y, drawcolor);
                             #endregion
+
+
                         }
                     }
                 }

@@ -17,9 +17,20 @@ namespace ZBase.Cheats
         public static void Run()
         {
             int UserSens = Memory.ReadMemory<int>((int)Memory.Client + Main.O.signatures.dwSensitivity);
+            Vector2 OldAimPunch;
+            OldAimPunch.X = OldAimPunch.Y = 0;
             while (true)
             {
-                   if (Main.S.AimEnabled){/*
+                   if (Main.S.AimEnabled){
+
+                    if (G.Engine.LocalPlayer.ShotsFired > 0) { 
+                        G.Engine.ViewAngles = G.Engine.ViewAngles - (OldAimPunch - G.Engine.LocalPlayer.AimPunchAngle) * 2;
+                        OldAimPunch = G.Engine.LocalPlayer.AimPunchAngle;
+                        return;
+                    }
+                    else
+                        OldAimPunch.X = OldAimPunch.Y  = 0;
+                    /*
                     //for (int i = 0; i < Engine.MaxPlayer; i++)
                     //{
                         int EntityInCrossID = Memory.ReadMemory<int>(Engine.LocalPlayerPtr + Main.O.netvars.m_iCrosshairId);
@@ -39,7 +50,7 @@ namespace ZBase.Cheats
                             Memory.WriteMemory<int>((int)Memory.Client + Main.O.signatures.dwSensitivity, UserSens);
                         }
                     //}*/
-                     }
+                }
             }
         }
     }
